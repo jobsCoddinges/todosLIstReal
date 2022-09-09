@@ -1,3 +1,89 @@
 .hidden {
   display: none;
 }
+
+* {
+  box-sizing: border-box;
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+body {
+}
+input {
+  background-color: transparent;
+}
+#login-form {
+  margin-top: 100px;
+  position: relative;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#login-form input:first-child {
+  height: 50px;
+  border: black 2px solid;
+  border-radius: 10px;
+  background: transparent;
+  color: white;
+  padding-left: 10px;
+  font-size: 35px;
+}
+#login-form input:nth-child(2) {
+  margin-left: 10px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+}
+
+#login-form input:nth-child(2):hover {
+  background-color: black;
+  transition: 0.5s;
+}
+
+#greeting {
+  color: white;
+  font-size: 50px;
+  font-style: italic;
+}
+
+#clock {
+  margin-left: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+li {
+  list-style: decimal;
+  margin-bottom: 20px;
+}
+
+#todos-form input {
+  height: 45px;
+  width: 300px;
+  padding-left: 10px;
+  border-radius: 15px;
+  font-size: 25px;
+}
